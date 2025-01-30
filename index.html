@@ -375,7 +375,7 @@
 
     <div class="footer-form">
        <p class="text-label">Subscribe </p>
-      <form name="report-form" action="">
+      <form name="report-form" class="form">
         <label class="label-name" for="user-email">
           <input  class="email-input" type="email" name="user-email" id="user-email" placeholder="E-mail"/>
         </label>
@@ -398,7 +398,7 @@
   </svg>
 </button>
 <p class="modal-title">Leave your contacts and we will call you back</p>
-<form class="modal-form">
+<form class="modal-form" name="modal-form">
   <div class="modal-field">
   <label clas="label-modal" for="user-name">Name</label>
   <div class="input-text">
@@ -430,8 +430,8 @@
 </div>
 
 <div class="modal-comment">
-  <label class="label-modal" for="comment">Comment</label>
-  <textarea class="textarea-modal" name="comment" id="comment" placeholder="Text input"></textarea>
+  <label class="label-modal" name="label-modal" for="user-comment">Comment</label>
+  <textarea class="textarea-modal" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
 </div>
 
 <div class="checkbox-modal">
